@@ -54,6 +54,15 @@ h1, h1 * {
     vertical-align: top;
 }
 
+a:link, a:visited, a:hover, a:active {
+  color: var(--light-highlight);
+  background-color: transparent;
+}
+
+.align-left, li {
+    text-align: left;
+}
+
 .highlight-text {
     color: var(--light-highlight-colour);
 }
