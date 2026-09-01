@@ -50,13 +50,13 @@ h1, h2, h3, h4, h5, h6, h1 *, h2 *, h3 *, h4 *, h5 *, h6 * {
 
 h1, h1 * {
     font-weight: 800;
-    text-decoration: underline solid var(--light-highlight-colour) var(--border-width);
     vertical-align: top;
 }
 
 a:link, a:visited, a:hover, a:active {
   color: var(--light-highlight);
   background-color: transparent;
+	text-decoration: underline solid var(--light-highlight-colour) var(--border-width);
 }
 
 .align-left, li {
