@@ -56,8 +56,12 @@ h1, h1 * {
 
 a:link, a:visited, a:hover, a:active {
   color: var(--light-highlight);
-  background-color: transparent;
+	background-color: transparent;
 	text-decoration: underline solid var(--light-highlight-colour) var(--p-underline-width);
+}
+
+h1 a, h2 a, h3 a {
+	text-decoration: underline solid var(--light-highlight-colour) var(--border-width);
 }
 
 .align-left, li {
