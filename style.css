@@ -17,13 +17,13 @@
     --light-grey: light-dark(var(--grey-1), var(--grey-2));
     --dark-grey: light-dark(var(--grey-2), var(--grey-1));
 
-    --light-highlight: #eb736a;
-    --dark-highlight: #8d1646;
+    --light-highlight: #9281af;
+    --dark-highlight: #5f4e7c;
     --light-highlight-colour: light-dark(var(--dark-highlight), var(--light-highlight));
     --dark-highlight-colour: light-dark(var(--light-highlight), var(--dark-highlight));
 
-    --light-alt-highlight: #6ae2eb;
-    --dark-alt-highlight: #16778d;
+    --light-alt-highlight: #01c6b9;
+    --dark-alt-highlight: #01645d;
     --light-alt-highlight-colour: light-dark(var(--dark-alt-highlight), var(--light-alt-highlight));
     --dark-alt-highlight-colour: light-dark(var(--light-alt-highlight), var(--dark-alt-highlight));
 }
